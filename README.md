@@ -267,6 +267,7 @@ Available environment variables:
 - `MAGENTO_ENABLE_HTTPS`: Whether to use SSL to access the Magento Store. Valid values: yes, no. Default: **no**
 - `MAGENTO_ENABLE_ADMIN_HTTPS`: Whether to use SSL to access the Magento Admin. Valid values: yes, no. Default: **no**
 - `MAGENTO_DEPLOY_STATIC_CONTENT`: Whether to deploy Magento static content during the initialization, to optimize initial page load time. Default: **no**
+- `MAGENTO_KEEP_STATIC`: Whether to keep the content of 'pub/static' folder during the initialization. Default: **no**
 - `MAGENTO_SKIP_REINDEX`: Whether to skip Magento re-index during the initialization. Default: **no**
 - `MAGENTO_SKIP_BOOTSTRAP`: Whether to skip performing the initial bootstrapping for the application. Default: **no**
 
