@@ -358,6 +358,8 @@ magento_initialize() {
         if ! is_boolean_yes "$MAGENTO_KEEP_STATIC" && [[ "$MAGENTO_MODE" != "production" ]]; then
             info "Upgrading database schema"
             magento_execute setup:upgrade
+        else
+            magento_execute setup:upgrade --keep-generated
         fi
     fi
 
